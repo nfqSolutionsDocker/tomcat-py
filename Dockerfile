@@ -14,8 +14,8 @@ ENV JAVA_HOME=/solutions/app/java \
 ENV PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin
 
 # Añadimos funcionalidades de python3
-RUN curl https://bootstrap.pypa.io/get-pip.py | python3.4 \
-    pip3 install https://github.com/nfqsolutions/tweemanager/tarball/master
+RUN curl https://bootstrap.pypa.io/get-pip.py | python3.4
+RUN pip3 install https://github.com/nfqsolutions/tweemanager/tarball/master
 
 # Modificacion para solutions
 COPY index.html /solutions/
