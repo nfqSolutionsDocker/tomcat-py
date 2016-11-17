@@ -1,6 +1,7 @@
 ### tomcat
 
 This container has the following characteristics:
+- PYTHON3, PIP3 and TWEEMANAGER installed.
 - Container nfqsolutions/centos:7.
 - The java directory is /solutions/java.
 - The tomcat directory is /solutions/tomcat.
